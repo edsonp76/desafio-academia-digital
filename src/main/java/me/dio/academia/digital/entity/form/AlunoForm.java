@@ -32,19 +32,4 @@ public class AlunoForm {
   @Past(message = "Data '${validatedValue}' é inválida.")
   private LocalDate dataDeNascimento;
 
-public Object getNome() {
-    return null;
-}
-
-public Object getCpf() {
-    return null;
-}
-
-public Object getBairro() {
-    return null;
-}
-
-public Object getDataDeNascimento() {
-    return null;
-}
 }
