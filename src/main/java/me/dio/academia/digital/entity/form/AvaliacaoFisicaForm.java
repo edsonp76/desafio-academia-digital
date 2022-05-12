@@ -18,7 +18,7 @@ public class AvaliacaoFisicaForm {
 
   @NotNull(message = "Preencha o campo corretamente.")
   @Positive(message = "${validatedValue}' precisa ser positivo.")
-  @DecimalMin(value = "150", message = "'${validatedValue}' precisa ser no mínimo {value}.")
+  //@DecimalMin(value = "150", message = "'${validatedValue}' precisa ser no mínimo {value}.")
   private double altura;
 
 public Long getAlunoId() {

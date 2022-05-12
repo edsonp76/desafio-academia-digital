@@ -25,7 +25,7 @@ public class AlunoForm {
   private String cpf;
 
   @NotEmpty(message = "Preencha o campo corretamente.")
-  @Size(min = 3, max =50, message = "'${validatedValue}' precisa estar entre {min} e {max} caracteres.")
+  @Size(min = 2, max =50, message = "'${validatedValue}' precisa estar entre {min} e {max} caracteres.")
   private String bairro;
 
   @NotNull(message = "Prencha o campo corretamente.")
