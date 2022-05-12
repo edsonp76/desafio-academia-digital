@@ -36,29 +36,5 @@ public class Aluno {
   @JsonIgnore
   private List<AvaliacaoFisica> avaliacoes = new ArrayList<>();
 
-  public String getNome() {
-    return nome;
-  }
-
-  public LocalDate getDataDeNascimento() {
-    return dataDeNascimento;
-  }
-
-  public void setDataDeNascimento(LocalDate dataDeNascimento) {
-    this.dataDeNascimento = dataDeNascimento;
-  }
-
-  public String getBairro() {
-    return bairro;
-  }
-
-  public void setBairro(String bairro) {
-    this.bairro = bairro;
-  }
-
-  public void setNome(String nome) {
-    this.nome = nome;
-  }
-
 
 }
